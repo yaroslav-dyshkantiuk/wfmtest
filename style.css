@@ -1,0 +1,167 @@
+/**
+ * Theme Name:  Wfm Test
+ * Description: A short description of the theme.
+ *
+ * Theme URI:   #
+ * Author:      Yaroslav Dyshkantiuk
+ * Author URI:  #
+ *
+ * Tags:        black, brown, orange
+ * Text Domain: wfmtest
+ *
+ * License:     License. E.g. GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Version:     1.0
+ */
+
+ img {
+    max-width: 100%;
+    display: block;
+ }
+
+ .card-thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+ }
+
+ .card-full-thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+ }
+
+ .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .wfmtest-format-image {
+   position: relative;
+  }
+
+  .wfmtest-format-image .card-title {
+   position: absolute;
+   top: 50%;
+   transform: translate(0, -50%);
+   text-align: center;
+   width: 100%;
+  }
+
+  .wfmtest-format-image .card-title a {
+   color: #fff;
+   background: rgba(0, 0, 0, .3);
+   padding: 20px 30px;
+   text-transform: uppercase;
+  }
+
+  .wp-block-embed__wrapper {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+  }
+
+  .wp-block-embed__wrapper iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+   outline-width: 0;
+  }
+
+
+  ul.page-numbers {
+   display: flex;
+   padding-left: 0;
+   list-style: none;
+   border-radius: .25rem;
+   justify-content: center !important;
+}
+
+ul.page-numbers li:first-child .page-link {
+   margin-left: 0;
+   border-top-left-radius: .25rem;
+   border-bottom-left-radius: .25rem;
+}
+
+ul.page-numbers li:not(:disabled):not(.disabled) {
+   cursor: pointer;
+}
+
+a.page-numbers,
+span.current {
+   position: relative;
+   display: block;
+   padding: .5rem .75rem;
+   margin-left: -1px;
+   line-height: 1.25;
+   color: #007bff;
+   background-color: #fff;
+   border: 1px solid #dee2e6;
+   text-decoration: none;
+}
+
+span.current {
+   color: #fff;
+   background-color: #007bff;
+   border-color: #007bff;
+   cursor: default;
+}
+
+span.dots {
+   position: relative;
+   display: block;
+   padding: .5rem .75rem;
+   margin-left: -1px;
+   line-height: 1.25;
+   color: #007bff;
+   background-color: #fff;
+   border: 1px solid #dee2e6;
+   cursor: default;
+}
+
+nav.navigation {
+   width: 100%;
+}
+
+section.header {
+   min-height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+section.header h1,
+section.header h2 {
+   text-align: center;
+   /* color: #fff; */
+   padding: 10px;
+   font-size: 50px;
+   margin: 0px;
+   background-color: rgba(255, 255, 255, .1);
+   line-height: 1;
+}
+
+section.header h2 {
+   font-size: 35px;
+   padding: 0 0 10px;
+}
+
+.sidebar section {
+   background-color: #fff;
+   padding: 10px;
+   margin-bottom: 20px;
+}

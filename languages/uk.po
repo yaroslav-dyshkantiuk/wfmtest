@@ -1,0 +1,83 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wfmtest 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2024-06-14 07:29+0300\n"
+"PO-Revision-Date: 2024-06-14 07:54+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:29
+msgid "Published "
+msgstr "Опублікована "
+
+#: functions.php:29
+msgid "ago."
+msgstr "тому."
+
+#: functions.php:62
+msgid "Header Menu"
+msgstr "Меню заголовка"
+
+#: functions.php:63
+msgid "Footer Menu"
+msgstr "Меню нижнього колонтитула"
+
+#: functions.php:94
+msgid "Link color"
+msgstr "Колір посилання"
+
+#: functions.php:114
+msgid "Site settings"
+msgstr "Налаштування сайту"
+
+#: functions.php:126
+msgid "Display description"
+msgstr "Відображати опису"
+
+#: functions.php:138
+msgid "Phone"
+msgstr "Телефон"
+
+#: functions.php:186
+msgid "Books"
+msgstr "Книги"
+
+#: functions.php:187
+msgid "Book"
+msgstr "Книга"
+
+#: functions.php:188
+msgid "All Books"
+msgstr "Всі книги"
+
+#: inc/admin-functions.php:4 inc/admin-functions.php:6
+msgid "WFM Theme Options"
+msgstr "WFM Налаштування теми"
+
+#: inc/admin-functions.php:6
+msgid "General"
+msgstr "Загальні"
+
+#: inc/admin-functions.php:8
+msgid "WFM Theme Options Subpage"
+msgstr "WFM Розширені налаштування"
+
+#: inc/admin-functions.php:8
+msgid "Additional"
+msgstr "Дотаткові"
+
+#: template-parts/content.php:11
+msgid "Read more"
+msgstr "Читати далі"
